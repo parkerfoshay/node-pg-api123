@@ -5,7 +5,7 @@ const pool = new Pool({
   host: "localhost",
   database: "api",
   password: "23cookies",
-  port: 5434,
+  port: 5432,
 });
 
 const getUsers = (request, response) => {
